@@ -1,4 +1,5 @@
 /*Importing custom fonts*/
+
 @font-face {
     font-family: LigueGothic;
     src: url('./fonts/LeagueGothic-Regular.otf') format("opentype");
@@ -45,7 +46,9 @@ button:focus {
     outline: 0;
 }
 
+
 /*Styling header*/
+
 #header-container {
     margin: 120px 5% 20px 5%;
 }
@@ -63,18 +66,24 @@ button:focus {
     height: 110px;
 }
 
+
 /*Styling navigation*/
+
 nav {
     padding: 0 0.4% 0 0;
     margin: 19px 1.3% 19px 0.5%;
 }
 
-nav ul,
-nav ul li {
+nav>ul,
+nav>ul>li {
     display: inline-block;
 }
 
-nav ul li a {
+nav>ul>li {
+    position: relative;
+}
+
+nav>ul>li>a {
     font-family: LigueGothic;
     font-size: 1.4em;
     text-transform: uppercase;
@@ -84,13 +93,51 @@ nav ul li a {
     text-shadow: 2px 2px black;
 }
 
-nav ul li a:hover,
-nav ul li a:active {
+nav>ul>li>a:hover,
+nav>ul>li>a:active {
     color: #dcc08e;
     background-color: #222222;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+
+nav>ul>li>a:hover + ul.submenu,
+nav>ul>li>a:active + ul.submenu {
+    display: block;
+}
+
+nav>ul>li>ul.submenu {
+    display: none;
+    position: absolute;
+    top: 52px;
+    padding: 14px 30px 14px 21px;
+    z-index: 10;
+    background-color: #222222;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.6);
+}
+
+nav>ul>li>ul.submenu li {
+    white-space: nowrap;
+}
+
+nav>ul>li>ul.submenu a {
+    font-family: LigueGothic;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+nav>ul>li>ul.submenu a:hover,
+nav>ul>li>ul.submenu a:active {
+    color: #dcc08e;
+}
+
+
+/*Styling search*/
 
 .search_field {
     display: inline-block;
@@ -128,12 +175,16 @@ nav input:placeholder-shown {
     font-style: italic;
 }
 
+
 /*Styling main content*/
+
 #main-content {
     margin: 12px 5px 0 5px;
 }
 
+
 /*Styling post box*/
+
 .post {
     width: 14.75%;
     background-color: white;
@@ -229,7 +280,9 @@ div.double-column .post-image-content {
     left: 0;
 }
 
+
 /*Syling pagination*/
+
 .pagination-container {
     width: 99%;
     margin: 0 auto 20px auto;
@@ -280,7 +333,9 @@ div.double-column .post-image-content {
     display: inline-block;
 }
 
+
 /*Styling footer*/
+
 .footer {
     width: 100%;
     background: linear-gradient(to right, #191919, #2c2c2c 21.4%, #2c2c2c 78.6%, #191919);
@@ -355,17 +410,18 @@ div.double-column .post-image-content {
     color: white;
 }
 
-.footer-links li a span.bullet {
+li a span.bullet {
     color: #5d5d5d;
     text-shadow: 1px 1px black;
     font-family: Arial;
     font-size: 1.5em;
 }
 
-.footer-links li a:hover span.bullet,
-.footer-links li a:active span.bullet {
+li a:hover span.bullet,
+li a:active span.bullet {
     color: #9a1d0d;
 }
+
 
 /*Styling post page*/
 
@@ -399,7 +455,9 @@ div.double-column .post-image-content {
     clear: both;
 }
 
+
 /*Styling post contents*/
+
 .post-full-title {
     font-family: LigueGothic;
     text-transform: uppercase;
@@ -449,7 +507,9 @@ div.double-column .post-image-content {
     border: 5px solid #efefef;
 }
 
+
 /*Styling post attributes*/
+
 .post-full-attributes-contents h4 {
     font-family: LigueGothic;
     text-transform: uppercase;
@@ -491,7 +551,9 @@ div.double-column .post-image-content {
     filter: drop-shadow(1px 1px 1px gray);
 }
 
+
 /*Styling post comments*/
+
 .post-full-comments {
     margin-left: 20%;
     width: 80%;
@@ -605,7 +667,9 @@ div.double-column .post-image-content {
     width: 478px;
 }
 
+
 /*Styling post sidebar*/
+
 .post-sedebar {
     display: inline-block;
     width: 20.2%;
@@ -631,7 +695,6 @@ div.double-column .post-image-content {
     margin-bottom: 8px;
     padding-top: 16px;
     text-shadow: 1px 1px white;
-
 }
 
 .aside-bullets ul {
@@ -746,7 +809,9 @@ div.double-column .post-image-content {
     color: #8e8e8e;
 }
 
+
 /*Styling results page*/
+
 .post-results {
     width: 77.5%;
     display: inline-block;
