@@ -42,6 +42,10 @@ html body {
     height: 360px;
 }
 
+.post-summary {
+	line-height: 1.5em;
+	font-size: 0.75em;
+}
 
 /*Styling credentials*/
 
@@ -86,9 +90,9 @@ nav.site-navigation>ul>li>ul.submenu {
 .menu-lable:after {
     position: absolute;
     content: "\2261";
-    font-size: 5em;
+    font-size: 3.5em;
     top: -0.2em;
-    left: 0.25em;
+    left: 0.2em;
     color: #dcc08e;
 }
 

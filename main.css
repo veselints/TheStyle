@@ -228,12 +228,9 @@ div.double-column .post-image-content {
 }
 
 .post-summary {
-    font-size: 0.75em;
-    line-height: 1.5em;
     margin: 0 13px 25px 13px;
     color: #7b7b7b;
     height: 7.6em;
-    /*white-space: nowrap;*/
     overflow: hidden;
     text-overflow: ellipsis;
 }
