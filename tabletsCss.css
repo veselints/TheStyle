@@ -1,0 +1,37 @@
+html body {
+	color: blue;
+}
+
+/*Styling pagination*/
+.pagination {
+    width: 80.5%;
+}
+
+/*Styling index page posts*/
+.post {
+    width: 44.5%;
+    margin: 2.5%;
+}
+
+div.double-column {
+    width: 94.8%;
+}
+
+/*Styling credentials*/
+.credentials-br {
+	display: none;
+}
+
+.credentials-separator {
+	display: inline-block;
+}
+
+/*Styling logo*/
+#logo {
+	width: 300px;
+	height: 80px;
+}
+
+#header-container {
+	margin: 80px 5% 20px 5%;
+}

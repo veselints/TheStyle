@@ -4,11 +4,15 @@
 <head>
     <title>The Syle</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" media="only screen and (min-width : 320px)" href="phonesCss.css">
+    <link rel="stylesheet" media="only screen and (min-width : 600px)" href="tabletsCss.css">
+    <link rel="stylesheet" media="only screen and (min-width : 900px)" href="compsCss.css">
+    <link rel="stylesheet" media="only screen and (min-width : 1260px)" href="widesCss.css">
 </head>
 <body>
     <header id="header-container">
         <span id="logo"></span>
-        <nav>
+        <nav class="site-navigation">
             <ul>
                 <li>
                     <a href="#">home</a>
@@ -45,6 +49,7 @@
                         <li><a href="#"><span class="bullet">&raquo;&nbsp;</span>not so fun</a></li>
                     </ul>
                 </li>
+                <br class="navigation-separator" />
                 <li>
                     <a href="#">automotive</a>
                     <ul class="submenu">
@@ -95,6 +100,31 @@
     <p class="post-location"><a href="#">Home</a></p>
     <main class="index-page-content-container">
         <div id="main-content">
+            <div class="post">
+                <div class="post-image-content">
+                    <p class="post-category">
+                        entertainment
+                    </p>
+                    <p class="post-date">
+                        sep
+                    </p>
+                    <p class="post-date">
+                        13
+                    </p>
+                </div>
+                <p class="post-title">
+                    POST TITLE HERE
+                </p>
+                <p class="post-author">
+                    posted by vero coshu
+                </p>
+                <hr class="post-separator" />
+                <p class="post-summary">
+                    Duis consectetur, ipsum at consequat vehicula, mi leo suscipit turpis, sed lobortis turpis urna eu sem. Praesent posuere rhoncus eleifend. Sed vitae consectetur est, nec molestie risus. Nam sollicitudin consectetur efficitur. Nulla posuere efficitur nisi nec auctor. Etiam vehicula mi id rutrum accumsan.
+                </p>
+                <div class="post-bottom">
+                </div>
+            </div>
             <div class="post">
                 <div class="post-image-content">
                     <p class="post-category">
@@ -345,31 +375,6 @@
                 <div class="post-bottom">
                 </div>
             </div>
-            <div class="post">
-                <div class="post-image-content">
-                    <p class="post-category">
-                        entertainment
-                    </p>
-                    <p class="post-date">
-                        sep
-                    </p>
-                    <p class="post-date">
-                        13
-                    </p>
-                </div>
-                <p class="post-title">
-                    POST TITLE HERE
-                </p>
-                <p class="post-author">
-                    posted by vero coshu
-                </p>
-                <hr class="post-separator" />
-                <p class="post-summary">
-                    Duis consectetur, ipsum at consequat vehicula, mi leo suscipit turpis, sed lobortis turpis urna eu sem. Praesent posuere rhoncus eleifend. Sed vitae consectetur est, nec molestie risus. Nam sollicitudin consectetur efficitur. Nulla posuere efficitur nisi nec auctor. Etiam vehicula mi id rutrum accumsan.
-                </p>
-                <div class="post-bottom">
-                </div>
-            </div>
         </div>
         <div class="pagination-container">
             <p class="pagination_go_left"><a href="#">&laquo;</a></p>
@@ -386,7 +391,8 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-column">
-                <p class="footer-header">RECENT POSTS</p>
+            <a href="#"><p class="footer-header">RECENT POSTS</p></a>
+                
                 <ul class="footer-links">
                     <li>
                         <a href="#">
@@ -426,11 +432,13 @@
                 </ul>
             </div>
             <div class="footer-column">
-                <p class="footer-header">CUSTOM TEXT WIDGET</p>
+            <a href="#"><p class="footer-header">CUSTOM TEXT</p></a>
+                
                 <p class="text-in-footer">Donec aliquam ligula maximus felis hendrerit dignissim. Fusce at finibus arcu, sit amet malesuada magna. Suspendisse potenti. Vivamus pretium tempor porta. Vivamus consequat efficitur pulvinar. Maecenas lacinia tortor at neque malesuada placerat. Donec non nulla cursus, blandit turpis vel, semper ex. Sed egestas finibus accumsan. Duis consectetur, ipsum at consequat vehicula, mi leo suscipit turpis, sed lobortis turpis urna eu sem. Praesent posuere rhoncus eleifend. Sed vitae consectetur est, nec molestie risus. </p>
             </div>
             <div class="footer-column">
-                <p class="footer-header">RECENT COMMENTS</p>
+            <a href="#"><p class="footer-header">RECENT COMMENTS</p></a>
+                
                 <ul class="footer-links">
                     <li>
                         <a href="#">
@@ -470,7 +478,7 @@
                 </ul>
             </div>
             <div class="footer-column" id="last_footer">
-                <p class="footer-header">ARCHIVES</p>
+                <a href="#"><p class="footer-header">ARCHIVES</p></a>
                 <ul class="footer-links">
                     <li>
                         <a href="#">
@@ -511,7 +519,7 @@
             </div>
         </div>
         <p class="credentials">
-            Designed by <a href="#">ElegnatThemes</a> | Powered by <a href="http://telerikacademy.com/">Telerik Academy</a>
+            Designed by <a href="#">ElegnatThemes</a><br class="credentials-br"/><span class="credentials-separator">| </span>Powered by <a href="http://telerikacademy.com/">Telerik Academy</a>
         </p>
     </footer>
 </body>
