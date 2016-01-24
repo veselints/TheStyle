@@ -1,12 +1,22 @@
 html body {
+<<<<<<< HEAD
 	color: yellow;
 }
 
 /*Styling footer*/
+=======
+    font-size: 16px;
+}
+
+
+/*Styling footer*/
+
+>>>>>>> f743153a14e2553d014ca6118a64856407d4a164
 .footer-content .footer-column {
     padding: 1.2% 1.6% 1.2% 1.2%;
     width: 45%;
     display: inline-block;
+<<<<<<< HEAD
 }
 
 .text-in-footer, .footer-links {
@@ -18,32 +28,83 @@ html body {
 }
 
 /*Styling pagination*/
+=======
+    margin: 0;
+}
+
+.text-in-footer,
+.footer-links {
+    display: block;
+}
+
+.footer-header {
+    text-align: left;
+}
+
+
+/*Styling pagination*/
+
+>>>>>>> f743153a14e2553d014ca6118a64856407d4a164
 .pagination {
     width: 87.1%;
 }
 
+<<<<<<< HEAD
 /*Styling index page posts*/
+=======
+.pagination a {
+    padding: 0 9px;
+}
+
+
+/*Styling index page posts*/
+
+>>>>>>> f743153a14e2553d014ca6118a64856407d4a164
 .post {
     width: 22.2%;
     margin: 1.2%;
 }
 
+<<<<<<< HEAD
+=======
+/*.post-summary {
+    height: 7.5em;
+}*/
+
+>>>>>>> f743153a14e2553d014ca6118a64856407d4a164
 div.double-column {
     width: 47.3%;
 }
 
+<<<<<<< HEAD
 /*Styling credentials*/
+=======
+.post-image-content {
+    height: 180px;
+}
+
+
+/*Styling credentials*/
+
+>>>>>>> f743153a14e2553d014ca6118a64856407d4a164
 .credentials {
     text-align: right;
     padding-right: 12%;
 }
 
+<<<<<<< HEAD
 /*Styling post location*/
+=======
+
+/*Styling post location*/
+
+>>>>>>> f743153a14e2553d014ca6118a64856407d4a164
 .post-location {
     display: block;
 }
 
 nav.site-navigation {
+<<<<<<< HEAD
 	display: block;
 }
 
@@ -57,3 +118,67 @@ nav.site-navigation {
 #header-container {
 	margin: 120px 5% 20px 5%;
 }
+=======
+    display: block;
+    position: static;
+    font-size: 1em;
+}
+
+nav.site-navigation {
+    width: auto;
+    background-color: transparent;
+    padding: 0 0.4% 0 0;
+    margin: 19px 1.3% 19px 0.5%;
+}
+
+nav.site-navigation>ul>li {
+    display: inline-block;
+}
+
+nav.site-navigation>ul>li>a {
+    padding: 8px 8px 16px 8px;
+    width: auto;
+}
+
+nav.site-navigation>ul>li>ul.submenu {
+    position: absolute;
+    top: 51px;
+    padding: 14px 30px 14px 21px;
+    z-index: 10;
+    background-color: #222222;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.6);
+}
+
+.menu-lable {
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+.search_field {
+	display: inline-block;
+}
+
+.mobile-search {
+	display: none;
+}
+
+/*Styling logo*/
+
+.navigation-separator {
+    position: static;
+}
+
+#logo {
+    width: 420px;
+    height: 110px;
+    margin-left: 0;
+}
+
+#header-container {
+    margin: 80px 5% 20px 5%;
+}
+>>>>>>> f743153a14e2553d014ca6118a64856407d4a164
