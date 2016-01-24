@@ -199,13 +199,10 @@ div.double-column .post-image-content {
     margin: 1.5%;
     box-shadow: inset 0 0 10px #3a3a3a;
     width: 97%;
-    height: 180px;
-    /*position: relative;*/
 }
 
 .post-category,
 .post-date {
-    margin: 0 0 10px 0;
     font-family: LigueGothic;
     text-transform: uppercase;
     color: white;
@@ -214,6 +211,7 @@ div.double-column .post-image-content {
 
 .post-category {
     font-size: 1.35em;
+    margin-bottom: 0.55em;
     background-color: #9a1d0d;
     padding: 9px 9px 9px 11px;
     text-shadow: 1px 1px black;
@@ -221,7 +219,8 @@ div.double-column .post-image-content {
 
 .post-date {
     font-size: 2.8em;
-    line-height: 0.65em;
+    line-height: 0.5em;
+    margin-bottom: 0.4em;
     padding: 0 7px 0 0;
     text-shadow: 0 0 5px #3a3a3a;
     clear: both;

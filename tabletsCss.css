@@ -1,5 +1,6 @@
 html body {
 	color: blue;
+	font-size: 20px;
 }
 
 /*Styling pagination*/
@@ -15,6 +16,10 @@ html body {
 
 div.double-column {
     width: 94.8%;
+}
+
+.post-image-content {
+    height: 240px;
 }
 
 /*Styling credentials*/

@@ -1,5 +1,6 @@
 html body {
 	color: red;
+	font-size: 28px;
 }
 
 /*Styling footer*/
@@ -9,7 +10,7 @@ html body {
 
 .footer-content .footer-column {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .footer-header {
@@ -24,6 +25,10 @@ html body {
 /*Styling posts*/
 .post {
     margin-bottom: 25px;
+}
+
+.post-image-content {
+    height: 360px;
 }
 
 /*Styling credentials*/
