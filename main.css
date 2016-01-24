@@ -63,7 +63,6 @@ button:focus {
     display: inline-block;
 }
 
-
 /*Styling navigation*/
 
 nav.site-navigation>ul {
@@ -233,7 +232,7 @@ div.double-column .post-image-content {
     line-height: 1.5em;
     margin: 0 13px 25px 13px;
     color: #7b7b7b;
-    height: 88px;
+    height: 7.6em;
     /*white-space: nowrap;*/
     overflow: hidden;
     text-overflow: ellipsis;

@@ -1,6 +1,5 @@
 html body {
-    color: red;
-    font-size: 28px;
+    font-size: 36px;
 }
 
 
@@ -46,8 +45,10 @@ html body {
 
 /*Styling credentials*/
 
-.credentials {
+.footer .credentials {
     text-align: center;
+    /*font-size: 0.4em;*/
+    line-height: 1.2em;
 }
 
 .credentials-separator {
@@ -70,14 +71,6 @@ nav.site-navigation>ul>li>a {
     width: 7em;
 }
 
-/*nav.site-navigation>ul>li:first-of-type>a  {
-    padding-top: 1em;
-}
-
-nav.site-navigation>ul>li:last-of-type>a  {
-    padding-bottom: 1em;
-}*/
-
 nav.site-navigation>ul>li>ul.submenu {
     display: none;
     position: static;
@@ -95,8 +88,8 @@ nav.site-navigation>ul>li>ul.submenu {
     position: absolute;
     content: "\2261";
     font-size: 5em;
-    top: -0.15em;
-    left: 0.4em;
+    top: -0.28em;
+    left: 0.25em;
     color: #dcc08e;
 }
 
@@ -135,7 +128,8 @@ nav.site-navigation {
 .mobile-search .mobile-search-icon {
 	display: inline-block;
 	position: absolute;
-	right: -0.7em;
+	right: -0.8em;
+	top: -0.2em;
 	font-size: 4em;
 	color: #dcc08e;
 }
@@ -153,14 +147,13 @@ nav.site-navigation {
 .mobile-search-field {
 	display: none;
 	position: absolute;
-	top: -.5em;
+	top: 0;
 	right: 0;
-	height: 2em;
-	font-size: 2.5em;
+	font-size: 2em;
 	background-color: #333;
-	width: 8em;
+	width: 7em;
 	vertical-align: middle;
-	padding: 0.5em;
+	padding: 0.4em;
 	border-right: 3px solid #595959;
     border-bottom: 3px solid #595959;
 }
@@ -172,9 +165,9 @@ nav.site-navigation {
 }
 
 #logo {
-    width: 20em;
-    height: 5.2em;
-    margin-left: 6em;
+    width: 14em;
+    height: 3.7em;
+    margin-left: 5em;
 }
 
 #header-container {

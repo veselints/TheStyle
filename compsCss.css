@@ -1,5 +1,4 @@
 html body {
-    color: yellow;
     font-size: 16px;
 }
 
@@ -40,6 +39,10 @@ html body {
     width: 22.2%;
     margin: 1.2%;
 }
+
+/*.post-summary {
+    height: 7.5em;
+}*/
 
 div.double-column {
     width: 47.3%;
@@ -82,13 +85,13 @@ nav.site-navigation>ul>li {
 }
 
 nav.site-navigation>ul>li>a {
-    padding: 9px 9px 16px 9px;
+    padding: 8px 8px 16px 8px;
     width: auto;
 }
 
 nav.site-navigation>ul>li>ul.submenu {
     position: absolute;
-    top: 52px;
+    top: 51px;
     padding: 14px 30px 14px 21px;
     z-index: 10;
     background-color: #222222;
