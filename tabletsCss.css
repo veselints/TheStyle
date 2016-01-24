@@ -32,7 +32,7 @@ div.double-column {
 
 .footer .credentials {
     text-align: center;
-    line-height: 1em;
+    font-size: 0.75em;
 }
 
 .credentials-separator {
@@ -55,4 +55,8 @@ div.double-column {
 .mobile-search-field {
 	right: 2em;
 	width: 7.5em;
+}
+
+.menu-lable:after {
+    left: 0.2em;
 }
