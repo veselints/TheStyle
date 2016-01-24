@@ -8,6 +8,7 @@ html body {
     padding: 1.2% 1.6% 1.2% 1.2%;
     width: 45%;
     display: inline-block;
+    margin: 0;
 }
 
 .text-in-footer, .footer-links {
@@ -21,6 +22,10 @@ html body {
 /*Styling pagination*/
 .pagination {
     width: 87.1%;
+}
+
+.pagination a {
+    padding: 0 9px;
 }
 
 /*Styling index page posts*/
@@ -53,6 +58,10 @@ nav.site-navigation {
 }
 
 /*Styling logo*/
+.navigation-separator {
+	display: block;
+}
+
 #logo {
 	width: 420px;
 	height: 110px;

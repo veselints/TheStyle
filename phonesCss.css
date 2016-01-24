@@ -23,6 +23,11 @@ html body {
     width: 62.4%;
 }
 
+.pagination a {
+    padding: 0 20px;
+}
+
+
 /*Styling posts*/
 .post {
     margin-bottom: 25px;
@@ -51,6 +56,10 @@ nav.site-navigation {
 }
 
 /*Styling logo*/
+.navigation-separator {
+	display: none;
+}
+
 #logo {
 	width: 20em;
 	height: 5.2em;

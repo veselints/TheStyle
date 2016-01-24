@@ -8,6 +8,10 @@ html body {
     width: 80.5%;
 }
 
+.pagination a {
+    padding: 0 12px;
+}
+
 /*Styling index page posts*/
 .post {
     width: 44.5%;
