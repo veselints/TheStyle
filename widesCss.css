@@ -28,3 +28,6 @@ div.double-column {
 	display: none;
 }
 
+#header-container {
+	margin: 120px 5% 20px 5%;
+}

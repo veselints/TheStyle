@@ -11,6 +11,7 @@ html body {
 .footer-content .footer-column {
     display: block;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .footer-header {
@@ -51,11 +52,11 @@ nav.site-navigation {
 
 /*Styling logo*/
 #logo {
-	width: 200px;
-	height: 70px;
-	margin-left: 60px;
+	width: 20em;
+	height: 5.2em;
+	margin-left: 7em;
 }
 
 #header-container {
-	margin: 40px 5% 20px 5%;
+	margin: 4em 5% 2em 5%;
 }
