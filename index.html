@@ -9,9 +9,18 @@
     <link rel="stylesheet" media="only screen and (min-device-width : 900px)" href="compsCss.css">
     <link rel="stylesheet" media="only screen and (min-device-width : 1260px)" href="widesCss.css">
 </head>
+
 <body>
     <header id="header-container">
         <span id="logo"></span>
+        <div class="mobile-search">
+            <a class="mobile-search-icon" href="#">
+                     &#9906;
+                 </a>
+            <input type="text" class="mobile-search-field" name="mobileSearch" value="" placeholder="Search">
+        </div>
+        <input type="checkbox" class="menu-checkbox" id="menu">
+        <label for="menu" class="menu-lable" onclick></label>
         <nav class="site-navigation">
             <ul>
                 <li>
@@ -391,8 +400,9 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-column">
-            <a href="#"><p class="footer-header">RECENT POSTS</p></a>
-                
+                <a href="#">
+                    <p class="footer-header">RECENT POSTS</p>
+                </a>
                 <ul class="footer-links">
                     <li>
                         <a href="#">
@@ -432,13 +442,15 @@
                 </ul>
             </div>
             <div class="footer-column">
-            <a href="#"><p class="footer-header">CUSTOM TEXT</p></a>
-                
+                <a href="#">
+                    <p class="footer-header">CUSTOM TEXT</p>
+                </a>
                 <p class="text-in-footer">Donec aliquam ligula maximus felis hendrerit dignissim. Fusce at finibus arcu, sit amet malesuada magna. Suspendisse potenti. Vivamus pretium tempor porta. Vivamus consequat efficitur pulvinar. Maecenas lacinia tortor at neque malesuada placerat. Donec non nulla cursus, blandit turpis vel, semper ex. Sed egestas finibus accumsan. Duis consectetur, ipsum at consequat vehicula, mi leo suscipit turpis, sed lobortis turpis urna eu sem. Praesent posuere rhoncus eleifend. Sed vitae consectetur est, nec molestie risus. </p>
             </div>
             <div class="footer-column">
-            <a href="#"><p class="footer-header">RECENT COMMENTS</p></a>
-                
+                <a href="#">
+                    <p class="footer-header">RECENT COMMENTS</p>
+                </a>
                 <ul class="footer-links">
                     <li>
                         <a href="#">
@@ -478,7 +490,9 @@
                 </ul>
             </div>
             <div class="footer-column" id="last_footer">
-                <a href="#"><p class="footer-header">ARCHIVES</p></a>
+                <a href="#">
+                    <p class="footer-header">ARCHIVES</p>
+                </a>
                 <ul class="footer-links">
                     <li>
                         <a href="#">

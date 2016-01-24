@@ -39,3 +39,16 @@ div.double-column {
 /*#header-container {
 	margin: 60px 5% 20px 5%;
 }*/
+
+.menu-lable:after {
+    left: 0.7em;
+}
+
+.mobile-search .mobile-search-icon {
+	right: 0;
+}
+
+.mobile-search-field {
+	right: 2em;
+	width: 11.5em;
+}
